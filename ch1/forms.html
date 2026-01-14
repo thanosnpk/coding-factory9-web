@@ -23,6 +23,31 @@
             <input type="checkbox" name="vehicle3" value="car" id="fldCar">
             <label for="fldCar">Αυτοκίνητο</label>
         </div>
+
+        <div>
+            <label for="fldNationality">Υπηκοότητα</label>
+            <select name="nationality" id="fldNationality">
+                <option value="" disabled selected>Επιλέξτε Υπηκοότητα</option>
+                <option value="greek">Ελλάδα</option>
+                <option value="english">Αγγλία</option>
+                <option value="spain">Ισπανία</option>
+            </select>
+        </div>
+
+        <div>
+            <div >
+            <label for="fldFirstname">Όνομα</label>
+            <input type="text" name="firstname" id="fldFirstname" placeholder="Συμπληρώστε Όνομα" minlength="5" maxlength="15" required>
+            </div>
+            <div>
+                <label for="fldWordExperience">Χρόνια Προϋπηρεσίας</label>
+                <input type="number" name="word-experiance" id="fldWordExperience" min="3" max="20">
+            </div>
+            <div>
+                <label for="fldEmail">Email</label>
+                <input type="email" name="email" id="fldEmail">
+            </div>
+        </div>
     </form>
     
 </body>
